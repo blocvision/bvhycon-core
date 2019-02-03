@@ -18,4 +18,9 @@ minedDB*
 wallet/*
 worldstate*
 *.png
-
+bundle-*
+*.zip
+hycon
+worldstate_copy_root.ts
+data/clientDist/bundle.js
+data/clientDist/bundle.js.map
