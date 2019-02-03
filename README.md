@@ -1,3 +1,11 @@
+# bvhycon is Just another Hycon 0.1.0
+
+
+
+---
+
+
+
 # HYCON (HYC) - Powering hyperconnected blockchain solutions
 
 Welcome to the HYCON source code repository! Our goal at HYCON is to enable a faster and more scalable blockchain for many different use cases.

@@ -2,7 +2,7 @@
 set -e
 
 time=$(date +"%Y%m%d_%H%M")
-foldername="HYCON_0.0.7_"$time
+foldername="hycon_0.1.0c_"$time
 #build_time=${1:?"requires an argument DateTime" }
 os=${1:?"requires an argument macos | linux | win | all" }
 
@@ -34,7 +34,7 @@ function platform_dependent() {
     local output_dir=bundle-$platform
     #build_time=$(date +"%Y%m%d_%I%M")
     local file_name=$foldername'_'$platform'.zip'
-    pkg . --target $platform -o hycon
+    pkg . --target node10-$platform -o hycon
     mkdir $output_dir
     if [ -e $output_dir ]
     then
